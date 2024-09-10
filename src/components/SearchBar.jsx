@@ -30,7 +30,7 @@ const SearchBar = () => {
     >
       <input
         className="search-bar"
-        style={{ outline: "transparent" }}
+        style={{ outline: "transparent", border: "none" }}
         placeholder="Search..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
